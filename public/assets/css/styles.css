@@ -1,0 +1,67 @@
+body {
+    padding-top: 56px;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 20%;
+    background-color: #333;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.content {
+    margin-left: 20%; /* Ancho de la barra de navegación */
+    padding: 20px;
+}
+
+/* Estilo básico para las secciones */
+section {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 767.98px) {
+    /* Ajustes para pantallas pequeñas (tabletas y teléfonos) */
+    body {
+        padding-top: 56px; /* Mantener el ajuste de la barra de navegación */
+    }
+
+    .sidebar {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        top: 56px; /* Altura de la barra de navegación */
+        left: -100%;
+        transition: left 0.3s ease;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .sidebar.show {
+        left: 0;
+    }
+}
