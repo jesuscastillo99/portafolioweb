@@ -8,16 +8,21 @@
      <!-- Bootstrap CSS v5.2.1 -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Raleway:wght@400;700;900&family=Staatliches&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="{{ asset('assets/css/styles.css')}}" />
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
             <!-- Barra de Navegación -->
-            <nav class="col-md-2 d-none d-md-block bg-dark sidebar">
+            <nav class="col-md-2 d-none d-md-block sidebar">
                 <div class="sidebar-sticky">
-                    <ul class="nav flex-column">
-                        <li class="nav-item"><a class="nav-link" href="{{ route('inicio') }}">JESÚS CASTILLO</a></li>
+                    <ul class="nav flex-column nav-list">
+                        <article class="mb-4">
+                            <img src="{{ asset('assets/images/foto3.png')}}" class="" alt="chicos_itabecimg" />
+                            <img src="{{ asset('assets/images/foto2.png')}}" class="" alt="chicos_itabecimg" />             
+                        </article>
+                        <li class="nav-item"><a class="nav-link mt-2" href="{{ route('inicio') }}">JESÚS CASTILLO</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ route('sobremi') }}">SOBRE MÍ</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ route('portafolio') }}">PORTAFOLIO</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ route('educacion') }}">EDUCACION</a></li>
@@ -26,14 +31,11 @@
                     </ul>
                 </div>
             </nav>
-
-            <!-- Contenido Principal -->
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-                <!-- Contenido de la página -->
-                
-            </main>
         </div>
     </div>
+
+   
+    
 
     <!-- Bootstrap JS y dependencias -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
