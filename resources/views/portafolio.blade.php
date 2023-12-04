@@ -14,7 +14,7 @@
                     <!-- CARDS DE PROYECTOS -->
                     <div class="row">
                         <!-- Tarjeta 1 -->
-                        <div class="col-md-4 mb-4 bgmorado">
+                        <div class="col-md-4 mb-4 bgmorado zoomimg">
                             <div class="card bgrosa">
                                 <img src="{{ asset('assets/images/proyect1.png')}}" class="card-img-top" alt="Proyecto 1">
                                 <div class="card-body text-center">
@@ -26,7 +26,7 @@
                         </div>
                 
                         <!-- Tarjeta 2 -->
-                        <div class="col-md-4 mb-4 bgmorado">
+                        <div class="col-md-4 mb-4 bgmorado zoomimg">
                             <div class="card bgrosa">
                                 <img src="{{ asset('assets/images/proyect1.png')}}" class="card-img-top" alt="Proyecto 2">
                                 <div class="card-body text-center">
@@ -38,7 +38,7 @@
                         </div>
 
                         <!-- Tarjeta 3 -->
-                        <div class="col-md-4 mb-4 bgmorado">
+                        <div class="col-md-4 mb-4 bgmorado zoomimg">
                             <div class="card bgrosa">
                                 <img src="{{ asset('assets/images/proyect1.png')}}" class="card-img-top" alt="Proyecto 3">
                                 <div class="card-body text-center">
@@ -50,7 +50,7 @@
                         </div>
 
                         <!-- Tarjeta 4 -->
-                        <div class="col-md-4 mb-4 bgmorado">
+                        <div class="col-md-4 mb-4 bgmorado zoomimg">
                             <div class="card bgrosa">
                                 <img src="{{ asset('assets/images/proyect1.png')}}" class="card-img-top" alt="Proyecto 4">
                                 <div class="card-body text-center">
@@ -62,7 +62,7 @@
                         </div>
 
                         <!-- Tarjeta 5 -->
-                        <div class="col-md-4 mb-4 bgmorado">
+                        <div class="col-md-4 mb-4 bgmorado zoomimg">
                             <div class="card bgrosa">
                                 <img src="{{ asset('assets/images/proyect1.png')}}" class="card-img-top" alt="Proyecto 5">
                                 <div class="card-body text-center">

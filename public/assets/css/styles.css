@@ -205,12 +205,33 @@ section {
     transform: rotate(-10deg);
 }
 
-/*ESTILOS EN LAS CARDS DEL PORTAFOLIO */
+.zoomimg:hover {
+    transform: scale(1.1);
+}
+
+/*ESTILOS EN LAS CARDS DEL PORTAFOLIO Y COLORES */
 .bgrosa {
     background-color: #F61067;
 }
 .bgmorado {
     background-color: #5E239D;
+}
+.bgcmorado{
+    border: 2px solid #F61067;
+}
+
+.colort {
+    color: #00F0B5;
+}
+
+/*CONTENEDORES CON SOMBRA */
+.contenedorsombra {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.5s ease-in-out; /* Ajusta el valor de sombra según tu preferencia */
+}
+
+.contenedorsombra:hover {
+    transform: scale(1.1);
 }
 
 /*ESTILOS PARA LA IMAGEN DE LANDING*/
@@ -272,4 +293,9 @@ article:hover::before {
 article:hover img:last-child {
     opacity: 1;
     transform: translateY(10%);
+}
+
+/*Modificar iconos de contacto */
+i {
+    font-size: 23px;
 }
